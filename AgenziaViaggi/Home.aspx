@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
     <style>
         * {
@@ -39,12 +39,12 @@
 
         .links {
             margin: 20px;
-            color:black;
+            color: black;
         }
 
         a:link {
             text-decoration: none;
-            color:black;
+            color: black;
         }
 
         a:visited {
@@ -62,7 +62,7 @@
         #destinazione {
             margin-top: 40px;
             text-align: center;
-            color:orangered;
+            color: orangered;
         }
 
         #contenitore3 {
@@ -89,8 +89,8 @@
 
         h3 {
             text-align: center;
-            text-decoration:none;
-            color:black;
+            text-decoration: none;
+            color: black;
         }
 
         contenitore-offerte {
@@ -112,14 +112,13 @@
             bottom: 0;
             left: 0;
             width: 100%;
-            background-color: rgba(255, 255, 255, 0.5);;
+            background-color: rgba(255, 255, 255, 0.5)
             text-align: center;
         }
 
-        #scrittafooter{
-            color:orangered;
+        #scrittafooter {
+            color: orangered;
         }
-
     </style>
 </head>
 <body>
@@ -166,7 +165,7 @@
             <div id="contenitore4">
                 <div class="contenitore5">
                     <p>
-                    Lorem ipsum Lorem ipsumLorem 
+                        Lorem ipsum Lorem ipsumLorem 
                     ipsumLorem ipsumLorem ipsumLorem 
                     ipsumLorem ipsumLoremLorem ipsum 
                     Lorem ipsumLorem ipsumLorem 
@@ -174,6 +173,7 @@
                     ipsumLoremLorem ipsum Lorem 
                     ipsumLorem ipsumLorem ipsumLorem 
                     ipsumLorem ipsumLorem ipsumLorem
+                    </p>
                 </div>
                 <div class="contenitore5">
                     <a href="Saldi.aspx">
