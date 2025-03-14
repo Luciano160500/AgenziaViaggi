@@ -16,8 +16,9 @@
             background-image: url(resources/sfondo.png);
             background-repeat: no-repeat;
             background-size: cover;
+            
         }
-
+        
         h1 {
             color: orangered;
         }
