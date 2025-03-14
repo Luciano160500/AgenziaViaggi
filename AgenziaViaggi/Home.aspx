@@ -107,12 +107,12 @@
             width: 50%;
         }
 
-        .footer {
+        #footer {
             position: fixed;
             bottom: 0;
             left: 0;
             width: 100%;
-            background-color: yellow;
+            background-color: rgba(255, 255, 255, 0.5);;
             text-align: center;
         }
 
