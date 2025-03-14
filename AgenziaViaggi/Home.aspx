@@ -112,7 +112,7 @@
             bottom: 0;
             left: 0;
             width: 100%;
-            background-color: rgba(255, 255, 255, 0.5)
+            background-color: rgba(255, 255, 255, 0.5);
             text-align: center;
         }
 
