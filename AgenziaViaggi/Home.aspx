@@ -16,9 +16,10 @@
             background-image: url(resources/sfondo.png);
             background-repeat: no-repeat;
             background-size: cover;
-            
+            background-color: rgba(255, 255, 255, 0.5);
+            background-blend-mode: lighten;
         }
-        
+
         h1 {
             color: orangered;
         }
@@ -38,10 +39,12 @@
 
         .links {
             margin: 20px;
+            color:black;
         }
 
         a:link {
             text-decoration: none;
+            color:black;
         }
 
         a:visited {
@@ -53,12 +56,13 @@
         }
 
         a:active {
-            text-decoration: underline;
+            text-decoration: none;
         }
 
         #destinazione {
             margin-top: 40px;
             text-align: center;
+            color:orangered;
         }
 
         #contenitore3 {
@@ -85,6 +89,8 @@
 
         h3 {
             text-align: center;
+            text-decoration:none;
+            color:black;
         }
 
         contenitore-offerte {
@@ -97,9 +103,23 @@
             justify-content: space-around;
         }
 
-        .footer {
+        .contenitore5 {
             width: 50%;
         }
+
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: yellow;
+            text-align: center;
+        }
+
+        #scrittafooter{
+            color:orangered;
+        }
+
     </style>
 </head>
 <body>
@@ -144,7 +164,7 @@
                 <h2>Tante Offerte a portata di click!</h2>
             </div>
             <div id="contenitore4">
-                <div class="footer">
+                <div class="contenitore5">
                     <p>
                     Lorem ipsum Lorem ipsumLorem 
                     ipsumLorem ipsumLorem ipsumLorem 
@@ -155,12 +175,15 @@
                     ipsumLorem ipsumLorem ipsumLorem 
                     ipsumLorem ipsumLorem ipsumLorem
                 </div>
-            <div class="footer">
-                <a href="Saldi.aspx">
-                    <img src="resources/bonus.jpg" alt="offerte" title="sconti folli" />
-                </a>
+                <div class="contenitore5">
+                    <a href="Saldi.aspx">
+                        <img src="resources/bonus.jpg" alt="offerte" title="sconti folli" />
+                    </a>
+                </div>
             </div>
-        </div>
+            <div id="footer">
+                <h5 id="scrittafooter">Agenzia Viaggi GiàLoS.A.I. Via Roma, 10 Bucarest &copy;</h5>
+            </div>
         </div>
     </form>
 </body>
