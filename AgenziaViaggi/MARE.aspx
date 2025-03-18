@@ -24,19 +24,35 @@
 
         #title {
             display: flex;
+            
         }
 
         #contenitore1 {
             display: flex;
+            flex-direction:row;
         }
 
         #contenitore2 {
             display: flex;
+            flex-direction:row;
         }
 
         #contenitore3 {
             display: flex;
+            flex-direction:row;
         }
+
+        #contenitore4 {
+    padding: 10vh;
+    float: right;
+}
+
+#contenitore5 {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
 
 
     </style>
@@ -58,6 +74,15 @@
             </div>
         </div>
 
+        <div id="contenitore4">
+            <div id="contenitore5">
+                <a href="#chisiamo">Chi Siamo</a>
+                <a href="#destinazioni">Destinazioni</a>
+                <a href="#cosedasapere">Cose da sapere</a>
+            </div>
+        </div>
+
+        <div id="Pagina">
             <%--TITOLO PAGINA--%>
             <div id="title">
                 <h1>Mare</h1>
@@ -110,7 +135,7 @@
                 <p></p>
             </div>
         </div>
-        
+        </div>
     </form>
 </body>
 </html>

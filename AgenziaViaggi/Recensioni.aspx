@@ -62,18 +62,19 @@
             flex-direction: row;
             flex-wrap: wrap;
             justify-content:space-evenly;
+            gap:30px;
         }
 
         .Card {
             background-color:antiquewhite;
             display: flex;
             flex-direction: column;
+            flex: 1 1 40%;
             justify-content: center;
-            width: 35%;
             border: 2px solid black;
-            border-radius: 5px 5px 5px 5px;
+            border-radius: 10px 10px 10px 10px;
             text-align: center;
-            margin: 5vh;
+            margin: 10px;
         }
 
         .Foto {
