@@ -6,7 +6,7 @@
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
+    <title>Home</title>
     <style>
         * {
         }
@@ -66,9 +66,12 @@
         }
 
         #contenitore3 {
+            width: 90vh;
             display: flex;
             flex-direction: row;
             justify-content: space-evenly;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         #contenitore4 {
@@ -134,6 +137,12 @@
                 </div>
                 <div class="links">
                     <a href="#">Iscriviti</a>
+                </div>
+                <div class="links">
+                    <a href="#">Contatti</a>
+                </div>
+                <div class="links">
+                    <a href="#">Recensioni</a>
                 </div>
             </div>
             <div id="destinazione">

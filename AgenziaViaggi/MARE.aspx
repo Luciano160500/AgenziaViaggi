@@ -56,6 +56,8 @@
                 <a href="Home.aspx">Home</a>
                 <a href="#">Chi siamo</a>
                 <a href="#">Iscriviti</a>
+                <a href="#">Contatti</a>
+                <a href="#">Recensioni</a>
             </div>
         </div>
 
