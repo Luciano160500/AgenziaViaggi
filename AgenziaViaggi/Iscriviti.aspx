@@ -131,19 +131,19 @@
             <h1>Agenzia Viaggi</h1>
             <div id="contenitore2">
                 <div class="links">
-                    <a href="#">Home</a>
+                    <a href="Home.aspx">Home</a>
                 </div>
                 <div class="links">
-                    <a href="#">Chi siamo</a>
+                    <a href="ChiSiamo.aspx">Chi siamo</a>
                 </div>
                 <div class="links">
-                    <a href="#">Iscriviti</a>
+                    <a href="iscriviti.aspx">Iscriviti</a>
                 </div>
                 <div class="links">
-                    <a href="#">Iscriviti</a>
+                    <a href="Contatti.aspx">Contatti</a>
                 </div>
                 <div class="links">
-                    <a href="#">Iscriviti</a>
+                    <a href="Recensioni.aspx">Recensioni</a>
                 </div>
             </div>
             <div id="destinazione">
